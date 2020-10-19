@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Athlete Hub</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="athlete.html" active>Form</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="register">
+            <h3>Registration</h3>
+            <p>Don't have an account? Sign Up.</p>
+            <div class="form">
+                <label>First name: </label>
+                <input type="text" name="fname" id="fname">
+            </div>
+            <div class="form">
+                <label>Last name: </label>
+                <input type="text" name="lname" id="lname">
+            </div>
+            <div class="form">
+                <label>Age: </label>
+                <input type="text" name="age" id="age">
+            </div>
+            <div class="form">
+                <label>Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div class="form">
+                <label>State of origin</label>
+                <select>
+                    <option value="lagos" selected>Lagos</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Zamfara">Zamfara</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Rivers">Rivers</option>
+                </select>
+            </div>
+            <div class="form">
+                <label>Nationality</label>
+                <select>
+                    <option value="Nigerian">Nigerian</option>
+                    <option value="American">American</option>
+                    <option value="Canadian">Canadian</option>
+                    <option value="Mexican" selected>Mexican</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="German">German</option>
+                    <option value="French">French</option>
+                </select>
+            </div>
+            <div class="form">
+                <label>Gender</label>
+                <select>
+                    <option value="male" selected>Male</option>
+                    <option value="Female">Female</option>
+                    <option value="none">Binary</option>
+                    <option value="Female">Prefer not to specify</option>
+                </select>
+            </div>
+            <div class="form">
+                <label>Username: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form">
+                <label>Password: </label>
+                <input type="password" name="lname" id="lname">
+            </div>
+            <button>Sign Up</button>
+
+        </section>
+
+        <section id="login">
+            <h3>Login</h3>
+            <p>Already have an account? Login here...</p>
+            <div class="form">
+                <label>Username: </label>
+                <input type="text" name="name" id="name" placeholder="Enter Username">
+            </div>
+            <div class="form">
+                <label>Password: </label>
+                <input type="password" name="lname" id="lname" placeholder="Input Password">
+                <p class="forgot">Forgot password? <a href="#">Click here!</a></p>
+            </div>
+            <button>Login</button>
+        </section>
+    </body>
+</html>
